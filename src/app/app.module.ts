@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ParrentComponent } from './parrent/parrent.component';
 import { ChildComponent } from './child/child.component';
+import { ParrentComponent } from './parrent/parrent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParrentComponent,
-    ChildComponent
+    ChildComponent,
+    ParrentComponent
   ],
   imports: [
     BrowserModule,

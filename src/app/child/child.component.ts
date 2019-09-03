@@ -1,5 +1,4 @@
-import { Component, OnInit, Output } from '@angular/core';
-import { EventEmitter } from 'protractor';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -17,7 +16,7 @@ export class ChildComponent implements OnInit {
   SendNotification() {
     this.notificationCounter = this.notificationCounter + 1;
     const counter = this.notificationCounter.toString();
-  //  this.sendnotification.emit(counter);
+    this.sendnotification.emit(counter);
     console.log('Notification send');
   }
 }
