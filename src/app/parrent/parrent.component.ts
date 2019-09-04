@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parrent.component.scss']
 })
 export class ParrentComponent implements OnInit {
-  notificationStatusany;
   notificationCounter: number = 0;
   constructor() { }
 
