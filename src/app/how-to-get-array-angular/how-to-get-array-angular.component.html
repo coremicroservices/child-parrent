@@ -1,0 +1,8 @@
+<h1>HOW TO GET ARRAY VALUE IN ANGULAR ?</h1>
+<input type="text" [(ngModel)]="item">
+<input type="submit" (click)="GetValue()" value="Get Array Value">
+ <br>
+ <div *ngIf="foundItem">
+  Array Value is : {{foundItem}}
+</div>
+ 
